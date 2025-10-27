@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainBoost</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BrainBoost</h1>
+        <p>Intelligent Academic Task Manager & Learning Scheduler</p>
+    </header>
+
+    <div class="container">
+        <!-- Dashboard Overview -->
+        <section class="dashboard">
+            <div class="card">
+                <h3>Today's Tasks</h3>
+                <p>3 pending tasks</p>
+                <ul class="task-list">
+                    <li class="task-item high">
+                        <div>
+                            <strong>Complete Math Assignment</strong><br>
+                            Due: Today | Priority: High
+                        </div>
+                        <a href="#" class="btn btn-danger">Delete</a>
+                    </li>
+                    <li class="task-item medium">
+                        <div>
+                            <strong>Read Chapter 5</strong><br>
+                            Due: Tomorrow | Priority: Medium
+                        </div>
+                        <a href="#" class="btn btn-danger">Delete</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Study Schedule</h3>
+                <p>2 sessions today</p>
+                <ul class="schedule-list">
+                    <li class="schedule-item">
+                        <div>
+                            <strong>Physics Review</strong><br>
+                            10:00 AM - 11:00 AM
+                        </div>
+                        <a href="#" class="btn btn-danger">Delete</a>
+                    </li>
+                    <li class="schedule-item">
+                        <div>
+                            <strong>Essay Writing</strong><br>
+                            2:00 PM - 3:00 PM
+                        </div>
+                        <a href="#" class="btn btn-danger">Delete</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Progress Tracker</h3>
+                <p>Completed: 5/10 tasks this week</p>
+                <div style="background: #e9ecef; height: 20px; border-radius: 10px;">
+                    <div style="background: #28a745; width: 50%; height: 100%; border-radius: 10px;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Add Task Form -->
+        <section class="form-section">
+            <h2>Add New Task</h2>
+            <form>
+                <div class="form-group">
+                    <label for="taskDesc">Task Description</label>
+                    <input type="text" id="taskDesc" placeholder="e.g., Finish project report">
+                </div>
+                <div class="form-group">
+                    <label for="dueDate">Due Date</label>
+                    <input type="date" id="dueDate">
+                </div>
+                <div class="form-group">
+                    <label for="priority">Priority</label>
+                    <select id="priority">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Add Task</button>
+            </form>
+        </section>
+
+        <!-- Schedule Study Session Form -->
+        <section class="form-section">
+            <h2>Schedule Study Session</h2>
+            <form>
+                <div class="form-group">
+                    <label for="studyTopic">Study Topic</label>
+                    <input type="text" id="studyTopic" placeholder="e.g., Calculus Practice">
+                </div>
+                <div class="form-group">
+                    <label for="studyDate">Date</label>
+                    <input type="date" id="studyDate">
+                </div>
+                <div class="form-group">
+                    <label for="startTime">Start Time</label>
+                    <input type="time" id="startTime">
+                </div>
+                <div class="form-group">
+                    <label for="endTime">End Time</label>
+                    <input type="time" id="endTime">
+                </div>
+                <button type="submit" class="btn">Schedule Study</button>
+            </form>
+        </section>
+
+        <!-- Full Task List -->
+        <section class="card">
+            <h2>All Tasks</h2>
+            <ul class="task-list">
+                <li class="task-item high">
+                    <div>
+                        <strong>Complete Math Assignment</strong><br>
+                        Due: 2023-10-15 | Priority: High
+                    </div>
+                    <a href="#" class="btn btn-danger">Delete</a>
+                </li>
+                <li class="task-item medium">
+                    <div>
+                        <strong>Read Chapter 5</strong><br>
+                        Due: 2023-10-16 | Priority: Medium
+                    </div>
+                    <a href="#" class="btn btn-danger">Delete</a>
+                </li>
+                <li class="task-item low">
+                    <div>
+                        <strong>Review Notes</strong><br>
+                        Due: 2023-10-20 | Priority: Low
+                    </div>
+                    <a href="#" class="btn btn-danger">Delete</a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Full Study Schedule -->
+        <section class="card">
+            <h2>Study Schedule</h2>
+            <ul class="schedule-list">
+                <li class="schedule-item">
+                    <div>
+                        <strong>Physics Review</strong><br>
+                        Date: 2023-10-15 | Time: 10:00 AM - 11:00 AM
+                    </div>
+                    <a href="#" class="btn btn-danger">Delete</a>
+                </li>
+                <li class="schedule-item">
+                    <div>
+                        <strong>Essay Writing</strong><br>
+                        Date: 2023-10-15 | Time: 2:00 PM - 3:00 PM
+                    </div>
+                    <a href="#" class="btn btn-danger">Delete</a>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2023 BrainBoost. Prototype for academic productivity.</p>
+    </footer>
+</body>
+</html>
