@@ -13,3 +13,16 @@ College students often struggle to balance multiple deadlines, study sessions, a
 ## 👥 Target Users
 BrainBoost is designed for **college students** who seek a simple yet intelligent solution to manage their academic responsibilities, improve productivity, and reduce stress.
 
+---
+
+## 🧑‍🤝‍🧑 Group Members & Roles
+
+| Name                         | Role/Responsibility                         |
+|-----------------------------|---------------------------------------------|
+| Carlos, Mary Lovensky M.     | Project Lead / Documentation Coordinator     |
+| Gonzalvo, Mariz Nicole C.    | UI/UX Designer / Content Strategist          |
+| Juan, Jonalito A.            | Backend Developer / API Integration          |
+| Lozada, Paul Andre N.        | Frontend Developer / Mobile App Interface    |
+| Vidal, Jelyn M.              | AI/ML Specialist / Data Analyst              |
+
+---
