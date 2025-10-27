@@ -1,14 +1,15 @@
-# BrainBoost: An Intelligent Academic Task Manager and Learning Scheduler
+# 📘 BrainBoost: An Intelligent Academic Task Manager and Learning Scheduler
 
-Purpose / Problem:
-Most college students struggle to juggle multiple deadlines, study sessions, and academic goals. This often leads to cramming, burnout, and unfinished tasks. BrainBoost aims to be a friendly academic partner that helps students stay organized, study smarter, and feel more in control of their time.
+## 🎯 Purpose / Problem
+College students often struggle to balance multiple deadlines, study sessions, and academic goals. This can lead to cramming, stress, and unfinished tasks. **BrainBoost** is designed to be a supportive academic companion that helps students stay organized, study smarter, and feel more in control of their time.
 
-Key Features:
-Lets students easily record assignments, quizzes, exams, and projects
-Automatically creates a study schedule based on deadlines and available time
-Sends reminders to help students stay on track
-Shows progress through simple charts and insights
-Suggests better study routines using AI and learns user habits over time
+## ✨ Key Features
+✅ Record and categorize assignments, quizzes, exams, and projects  
+✅ Automatically generate smart study schedules based on deadlines and availability  
+✅ Receive reminders to stay on track with upcoming tasks and sessions  
+✅ Monitor academic progress with visual charts and insights  
+✅ Get AI-powered suggestions for optimal study routines based on user habits  
 
-Target Users:
-BrainBoost is created for college students who want a simple but smart way to manage their studies, improve productivity, and reduce academic stress.
+## 👥 Target Users
+BrainBoost is designed for **college students** who seek a simple yet intelligent solution to manage their academic responsibilities, improve productivity, and reduce stress.
+
